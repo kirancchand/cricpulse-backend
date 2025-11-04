@@ -3,3 +3,5 @@ create venv
 	python3.12 -m venv cricpulse_venv
 source cricpulse_venv/bin/activate
 pip install requirments.txt
+
+uvicorn main:app --reload --port 8020
