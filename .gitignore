@@ -1,2 +1,6 @@
 cricpulse_env
 .env
+__pycache__
+config/__pycache__
+models/__pycache__
+routes|__pycache__
